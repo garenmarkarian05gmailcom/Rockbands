@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.top-section {
+    border-bottom: solid gray 2px;
+    color: black;
+    height: 200px;
+    text-align: center;
+}
+.top-section h1 {
+    padding-top: 70px;
+    font-size: 40px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+main div {
+    height: 400px;
+}
+.nav-section {
+    width: 30%;
+    padding: 75px;
+    border-right: solid gray 2px;
+}
+.nav-section ul li {
+    list-style: none;
+    margin: 0 0 12px 0;
+}
+.nav-section ul li a {
+    display: block;
+    width: 125px;
+    text-align: center;
+    border: solid gray 2px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.nav-section ul li a:hover {
+    background-color: gray;
+    color: white;
+}
+.main-section {
+    text-align: center;
+    width: 70%;
+}
+.main-section h2 {
+    padding-top: 75px;
+    margin: 0 0 12px 0;
+    font-size: 30px;
+}   
+.main-section p {
+    margin: 0 0 12px 0;
+    font-size: 18px;
+}
+.main-section img {
+    width: 300px;
+    height: 200px;
+    border: solid black 2px;    
+    border-radius: 20px 20px 20px 20px;
+}
+footer{
+    border-top: solid gray 2px;
+    border-bottom: solid gray 2px;
+    color: black;
+    height: 200px;
+    text-align: center;
+}
+footer h3 {
+    padding: 70px;
+    color: black;
+    font-size: 40px;
+}
